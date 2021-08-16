@@ -1,0 +1,48 @@
+
+/*-----------Header index--------*/
+.headerIndex{
+    background-image: url(../Multimedia/Imagenes/fondoIndex.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+#titulo{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 3em;
+    letter-spacing: 0.8rem;
+    background: linear-gradient(#0e1821, #44535e);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+
+/*-------------Navegacion----------*/
+.menu{
+    display:flex;
+    justify-content: right;
+}
+.menu li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 40px;
+    text-align: right;
+}
+
+li a{
+    text-decoration: none;
+    color: #798f8c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+}
+
+.menu li:hover a{
+    color: #d9ebe9;
+
+}
+
+
+/*--------------Header Paginas----------*/
+.headerPaginas{
+    background-color: #d9ebe9;
+}

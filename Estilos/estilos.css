@@ -1,323 +1,339 @@
-*{
-    box-sizing: border-box;
-    margin: 0px;
-}
-
-.breveDescripcion{
-    font-size: 1.5rem;
-    padding: 40px;
-}
-.copyright{
-    text-align: center;
-    text-shadow: white;
-}
-/*-------------Grillas-------------*/
-
-.navegador{
-    grid-area: navegador;
-    width: auto;
-}
-
-
-.sobreMi{
-    grid-area: sobreMi;
-    display: flex;
-    padding-top: 50px;
-    flex-direction: column;
-    align-items: center;
-    background-color: #44535e;
-}
-
-.galeria {
-    grid-area: galeria;
-    background-color: #44535e;
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.contacto {
-    grid-area: contacto;
-    background-image: linear-gradient(to left, darkgrey,black);
-}
-
-.footer {
-    grid-area: footer;
-    background-color: #0e1821;
-    color: #798f8c;
-}
-
-
-
-
-/*-----------Header index--------*/
-.headerIndex{
-    background-image: url(../Multimedia/Imagenes/foto\ fondo\ indexxx.png);
-    background-size: cover;
-    height: 100vh;
-}
-
-#titulo{
-    font-family: 'Playfair Display SC', serif;
-    font-size: 3em;
-    letter-spacing: 0.8rem;
-    background: linear-gradient(#0e1821, #44535e);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-}
-
-
-/*-------------Navegacion----------*/
-.menu{
-    display:flex;
-    justify-content: right;
-}
-.menu li {
-    display: inline-block;
-    list-style: none;
-    margin-right: 40px;
-    text-align: right;
-}
-
-li a{
-    text-decoration: none;
-    color: #798f8c;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
-}
-
-.menu li:hover a{
-    color: #d9ebe9;
-
-}
-
-
-/*--------------Header Paginas----------*/
-.headerPaginas{
-    background-color: #d9ebe9;
-}
-
-
-
-/*-------------Pagina Sobre Mi------------*/
-.paginaSobreMi{
-    background-color: #44535e;
-    font-size: 1em;
-    font-family: cursive;
-    padding: 70px;
-    height: 100%;
-}
-.sectionSobreMi{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-around;
-}
-.biografia{
-    margin-right: 40px;
-    font-size: 1.5em;
-    font-family: 'Cormorant Garamond', serif;
-    letter-spacing: 1px;
-    line-height: 30px;
-    color: #0e1821;
-}
-
-.paginaSobreMi img{
-    height: 25em;
-    width: 32em;
-    padding-top: 30px;
-}
-
-.accordion__item{
-    margin: 40px;
-    background-color: #1a2936;
-    color: #d9ebe9;
-}
-
-.accordion__button{
-    background-color: #0e1821;
-    color: #798f8c;  
-}
-
-.accordion-button{
-    text-align: center;
-}
-
-
-
-.accordion-button:not(.collapsed) {
-    color: white;
-    background-color: black;
-}
-
-@media only screen and (max-width:700px){
-    .biografia{
-        font-size: 1em;
-        line-height: 20px;
-        color: #0e1821;
-        margin: 10px;
-    }
-    .accordion-body{
-        width: 90%;
-    }
-
-}
-
-
 /*---------------Pagina Galerias-----------*/
-.seleccionGaleria{
-    padding-top: 40px;
+.seleccionGaleria {
+  padding-top: 40px;
 }
 
-h2{
-    text-align: center;
-    color: #d9ebe9;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+h2 {
+  text-align: center;
+  color: #d9ebe9;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /*----------------Pagina Paisajes-----------*/
-.galeriaPaisajes{
-    background-color: lightslategray;
-    padding: 50px;
-    gap: 20px;
+.galeriaPaisajes {
+  background-color: lightslategray;
+  padding: 50px;
+  gap: 20px;
 }
 
-.galeriaPaisajes img{
-    margin-bottom: 30px;
+.galeriaPaisajes img {
+  margin-bottom: 30px;
 }
 
-.fotoFusil{
-    width: 312px;
-    height: 416px;
-    border-radius: 7%;
+.fotoFusil {
+  width: 312px;
+  height: 416px;
+  border-radius: 7%;
 }
 
-.fotoSolEnHoja{
-    width: 312px;
-    height: 416px;
-    border-radius: 7%;
+.fotoSolEnHoja {
+  width: 312px;
+  height: 416px;
+  border-radius: 7%;
 }
 
-.fotoTrigo{
-    width: 312px;
-    height: 416px;
-    border-radius: 7%;
+.fotoTrigo {
+  width: 312px;
+  height: 416px;
+  border-radius: 7%;
 }
 
-.fotoBombaAgua{
-    width: 312px;
-    height: 416px;
-    border-radius: 7%;
-}
-.fotoGustavoOscuro{
-    width: 312px;
-    height: 416px;
-    border-radius: 7%;
+.fotoBombaAgua {
+  width: 312px;
+  height: 416px;
+  border-radius: 7%;
 }
 
-.fotoMateTermo{
-    width: 312px;
-    height: 416px;
-    border-radius: 7%;
+.fotoGustavoOscuro {
+  width: 312px;
+  height: 416px;
+  border-radius: 7%;
 }
-.fotoPuestaSol{
-    width: 312px;
-    height: 416px;
-    border-radius: 7%;
+
+.fotoMateTermo {
+  width: 312px;
+  height: 416px;
+  border-radius: 7%;
 }
+
+.fotoPuestaSol {
+  width: 312px;
+  height: 416px;
+  border-radius: 7%;
+}
+
 .fotoTrigoSol {
-    width: 312px;
-    height: 416px;
-    border-radius: 7%;
+  width: 312px;
+  height: 416px;
+  border-radius: 7%;
 }
-
 
 /*----------------Pagina Galeria Animales-----------------*/
-.galeriaAnimales{
-    background-color: rgb(22, 23, 24);
-    padding: 50px;
-    gap: 20px;
+.galeriaAnimales {
+  background-color: #161718;
+  padding: 50px;
+  gap: 20px;
 }
 
-.galeriaAnimales img{
-    margin-bottom: 30px;
+.galeriaAnimales img {
+  margin-bottom: 30px;
 }
 
-.fotoCaballoSol{
-    width: 312px;
-    height: 416px;
-    justify-self: center;
-    border-radius: 7%;
+.fotoCaballoSol {
+  width: 312px;
+  height: 416px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  border-radius: 7%;
 }
 
-.fotoCaballoAtado{
-    width: 312px;
-    height: 416px;
-    justify-self: center;
-    border-radius: 7%;
+.fotoCaballoAtado {
+  width: 312px;
+  height: 416px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  border-radius: 7%;
 }
 
-.fotoCaballoHorizonte{
-    width: 312px;
-    height: 416px;
-    justify-self: center;
-    border-radius: 7%;
+.fotoCaballoHorizonte {
+  width: 312px;
+  height: 416px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  border-radius: 7%;
 }
 
-.fotoPerroChiquito{
-    width: 312px;
-    height: 416px;
-    justify-self: center;
-    border-radius: 7%;
-}
-.fotoLiebre{
-    width: 312px;
-    height: 416px;
-    justify-self: center;
-    border-radius: 7%;
+.fotoPerroChiquito {
+  width: 312px;
+  height: 416px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  border-radius: 7%;
 }
 
-.fotoTero{
-    width: 312px;
-    height: 416px;
-    justify-self: center;
-    border-radius: 7%;
+.fotoLiebre {
+  width: 312px;
+  height: 416px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  border-radius: 7%;
 }
-.fotoOveja{
-    width: 312px;
-    height: 416px;
-    justify-self: center;
-    border-radius: 7%;
+
+.fotoTero {
+  width: 312px;
+  height: 416px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  border-radius: 7%;
 }
+
+.fotoOveja {
+  width: 312px;
+  height: 416px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  border-radius: 7%;
+}
+
 .fotoMulita {
-    width: 312px;
-    height: 416px;
-    justify-self: center;
-    border-radius: 7%;
+  width: 312px;
+  height: 416px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  border-radius: 7%;
 }
 
+/*-----------Header index--------*/
+.headerIndex {
+  background-image: url(../Multimedia/Imagenes/fondoIndex.png);
+  background-size: cover;
+  height: 100vh;
+}
 
+#titulo {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 3em;
+  letter-spacing: 0.8rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0e1821), to(#44535e));
+  background: linear-gradient(#0e1821, #44535e);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
 
+/*-------------Navegacion----------*/
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.menu li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 40px;
+  text-align: right;
+}
+
+li a {
+  text-decoration: none;
+  color: #798f8c;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+}
+
+.menu li:hover a {
+  color: #d9ebe9;
+}
+
+/*--------------Header Paginas----------*/
+.headerPaginas {
+  background-color: #d9ebe9;
+}
+
+/*-------------Pagina Sobre Mi------------*/
+.paginaSobreMi {
+  background-color: #44535e;
+  font-size: 1em;
+  font-family: cursive;
+  padding: 70px;
+  height: 100%;
+}
+
+.sectionSobreMi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.biografia {
+  margin-right: 40px;
+  font-size: 1.5em;
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 1px;
+  line-height: 30px;
+  color: #0e1821;
+}
+
+.paginaSobreMi img {
+  height: 25em;
+  width: 32em;
+  padding-top: 30px;
+}
+
+.accordion__item {
+  margin: 40px;
+  background-color: #1a2936;
+  color: #d9ebe9;
+}
+
+.accordion__button {
+  background-color: #0e1821;
+  color: #798f8c;
+}
+
+.accordion-button {
+  text-align: center;
+}
+
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: black;
+}
+
+@media only screen and (max-width: 700px) {
+  .biografia {
+    font-size: 1em;
+    line-height: 20px;
+    color: #0e1821;
+    margin: 10px;
+  }
+  .accordion-body {
+    width: 90%;
+  }
+}
 
 /*------------Pagina Formulario-------------*/
-.paginaFormulario{
-    background-color: #0e1821;
-    padding: 50px;
-    height: 90vh;
+.paginaFormulario {
+  background-color: #0e1821;
+  padding: 50px;
+  height: 90vh;
 }
 
-.formulario{
-    width: 60%;
-}
-.formulario input{
-    padding: 15px;
-}
-/*---------------Transiciones--------------------*/
-
-.contenedor{
-    margin: 0px;
+.formulario {
+  width: 60%;
 }
 
+.formulario input {
+  padding: 15px;
+}
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+}
 
+/*-------------Grillas-------------*/
+.sobreMi {
+  grid-area: sobreMi;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #44535e;
+}
+
+/*------------footer-----------*/
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #0e1821;
+  color: #798f8c;
+  padding: 7px;
+}
+
+.copyright {
+  font-size: 1em;
+}
+
+.iconos i {
+  font-size: 30px;
+  margin-right: 30px;
+  color: #798f8c;
+}
+
+.iconos a {
+  text-decoration: none;
+}
+
+.iconos i:hover {
+  color: #d9ebe9;
+}
+/*# sourceMappingURL=estilos.css.map */

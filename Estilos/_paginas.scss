@@ -1,0 +1,78 @@
+/*-------------Pagina Sobre Mi------------*/
+.paginaSobreMi{
+    background-color: #44535e;
+    font-size: 1em;
+    font-family: cursive;
+    padding: 70px;
+    height: 100%;
+}
+.sectionSobreMi{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+.biografia{
+    margin-right: 40px;
+    font-size: 1.5em;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #0e1821;
+}
+
+.paginaSobreMi img{
+    height: 25em;
+    width: 32em;
+    padding-top: 30px;
+}
+
+.accordion__item{
+    margin: 40px;
+    background-color: #1a2936;
+    color: #d9ebe9;
+}
+
+.accordion__button{
+    background-color: #0e1821;
+    color: #798f8c;  
+}
+
+.accordion-button{
+    text-align: center;
+}
+
+
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: black;
+}
+
+@media only screen and (max-width:700px){
+    .biografia{
+        font-size: 1em;
+        line-height: 20px;
+        color: #0e1821;
+        margin: 10px;
+    }
+    .accordion-body{
+        width: 90%;
+    }
+
+}
+
+
+/*------------Pagina Formulario-------------*/
+.paginaFormulario{
+    background-color: #0e1821;
+    padding: 50px;
+    height: 90vh;
+}
+
+.formulario{
+    width: 60%;
+}
+.formulario input{
+    padding: 15px;
+}
