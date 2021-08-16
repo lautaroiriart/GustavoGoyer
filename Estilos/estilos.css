@@ -58,9 +58,8 @@
 }
 
 #titulo{
-    font-family: 'Baloo Chettan 2', cursive;
+    font-family: 'Playfair Display SC', serif;
     font-size: 3em;
-    line-height: 2.5rem;
     letter-spacing: 0.8rem;
     background: linear-gradient(#0e1821, #44535e);
     -webkit-text-fill-color: transparent;
@@ -68,9 +67,6 @@
     background-clip: text;
 }
 
-.masthead{
-    padding-top: 20px;
-}
 
 /*-------------Navegacion----------*/
 .menu{
@@ -87,7 +83,7 @@
 li a{
     text-decoration: none;
     color: #798f8c;
-    font-family: 'Lobster', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
 }
 
@@ -101,6 +97,7 @@ li a{
 .headerPaginas{
     background-color: #d9ebe9;
 }
+
 
 
 /*-------------Pagina Sobre Mi------------*/
