@@ -56,22 +56,25 @@
         color: #0e1821;
         margin: 10px;
     }
-    .accordion-body{
-        width: 90%;
+    .paginaSobreMi{
+        padding: 5px;
     }
-
 }
 
 
 /*------------Pagina Formulario-------------*/
 .paginaFormulario{
     background-color: #0e1821;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 50px;
-    height: 90vh;
 }
 
 .formulario{
-    width: 60%;
+    width: 50%;
+    padding-top: 30px;
 }
 .formulario input{
     padding: 15px;
