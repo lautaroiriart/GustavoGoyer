@@ -29,8 +29,9 @@
 
 
 <body>
+    <div class="headerPaginas">
        <!-- Navegacion-->
-       <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+       <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
         <div class="container px-4 px-lg-5">
             <a class="navbar-brand" href="#page-top"></a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +49,7 @@
         </div>
     </nav>
     <!-- Titulo-->
-    <header class="masthead headerPaginas">
+    <header class="masthead ">
         <div class="container px-4 px-lg-5 d-flex h-100 justify-content-left">
             <div class="d-flex justify-content-center">
                 <div class="text-center">
@@ -57,6 +58,7 @@
             </div>
         </div>
     </header>
+</div>
     
     <main class="paginaFormulario">
         <form  action="#" class="formulario">
@@ -65,16 +67,12 @@
                 <label for="floatingInput">Nombre</label>
               </div>
               <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingPassword" placeholder="Apellido">
-                <label for="floatingPassword">Apellido</label>
+                <input type="text" class="form-control" id="floatingApellido" placeholder="Apellido">
+                <label for="floatingApellido">Apellido</label>
               </div>
               <div class="form-floating mb-3">
-                <input type="number" class="form-control" id="floatingInput" placeholder="Edad">
-                <label for="floatingInput">Edad</label>
-              </div>
-              <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="floatingPassword" placeholder="Direccion de email">
-                <label for="floatingPassword">Email</label>
+                <input type="email" class="form-control" id="floatingEmail" placeholder="Direccion de email">
+                <label for="floatingEmail">Email</label>
               </div>
               <div class="col-12">
                 <button type="submit" class="btn btn-dark">Enviar</button>

@@ -40,9 +40,23 @@ li a{
     color: #d9ebe9;
 
 }
-
+.navegador{
+    background-color: transparent;
+}
 
 /*--------------Header Paginas----------*/
 .headerPaginas{
     background-color: #d9ebe9;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tituloPaginas{
+    font-family: 'Playfair Display SC', serif;
+    background: linear-gradient(#0e1821, #44535e);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
 }

@@ -8,18 +8,26 @@
 }
 
 
-/*-------------Grillas-------------*/
+/*-------------Index-------------*/
 
 .sobreMi{
-    grid-area: sobreMi;
     display: flex;
-    padding-top: 50px;
-    flex-direction: column;
+    padding: 50px;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
     background-color: #44535e;
 }
 
+.fotoInicio{
+    height: 500px;
+    width: 375px;
+    padding-left: 60px;
+}
 
+#fraseFinal{
+    font-weight: bold;
+}
 
 /*------------footer-----------*/
 .footer {
