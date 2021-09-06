@@ -6,11 +6,14 @@
     padding: 70px;
     height: 100%;
 }
+body {
+    background-color: #44535e;
+}
 .sectionSobreMi{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 .biografia{
     margin-right: 40px;

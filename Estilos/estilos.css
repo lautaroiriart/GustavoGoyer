@@ -123,6 +123,10 @@ li a {
   height: 100%;
 }
 
+body {
+  background-color: #44535e;
+}
+
 .sectionSobreMi {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -134,8 +138,9 @@ li a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .biografia {
