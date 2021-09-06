@@ -219,6 +219,10 @@ li a {
   margin: 0px;
 }
 
+.container-fluid {
+  padding: 0px;
+}
+
 /*-------------Index-------------*/
 .sobreMi {
   display: -webkit-box;
